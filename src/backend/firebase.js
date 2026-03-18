@@ -11,7 +11,7 @@ import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
   apiKey: "AIzaSyCSZBRAyHj4975DBlbO0LDHeQQur65ghLM",
   authDomain: "your-domain",
-  projectId: "your-id",
+  projectId: "your-Id",
   storageBucket: "your-storage",
   messagingSenderId: "your-id",
   appId: "your-appId"
