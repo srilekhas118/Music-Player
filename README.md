@@ -19,9 +19,8 @@ Tech Haven Music Player is a modern, feature-rich web application designed to br
    
 **Clone the repository:**
 
-   git clone https://github.com/your-username/music-player.git
+   git clone 
+   "https://github.com/srilekhas118/music-player.git"
 
-   
-   npm install
-   
+   npm install   
    npm run dev
