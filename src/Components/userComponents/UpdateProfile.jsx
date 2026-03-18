@@ -70,7 +70,7 @@ const UpdateProfile = () => {
     imageFormData.append("upload_preset", "tech_haven_music_11");
     imageFormData.append("cloud_name","dvmqzmtec")
 
-    let cloudinaryResponse = fetch("https://api.cloudinary.com/v1_1/dvmqzmtec/image/upload",{
+    let cloudinaryResponse = fetch("https://api.cloudinary.com/v1_1/your-id/image/upload",{
       method:"POST",
       body:imageFormData
     })
