@@ -67,8 +67,8 @@ const UpdateProfile = () => {
       let imageFormData = new FormData();
 
     imageFormData.append("file", imageFile);
-    imageFormData.append("upload_preset", "tech_haven_music_11");
-    imageFormData.append("cloud_name","dvmqzmtec")
+    imageFormData.append("upload_preset", "your-project");
+    imageFormData.append("cloud_name","your-id")
 
     let cloudinaryResponse = fetch("https://api.cloudinary.com/v1_1/your-id/image/upload",{
       method:"POST",
