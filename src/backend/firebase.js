@@ -10,11 +10,11 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyCSZBRAyHj4975DBlbO0LDHeQQur65ghLM",
-  authDomain: "tech-haven-music-11.firebaseapp.com",
-  projectId: "tech-haven-music-11",
-  storageBucket: "tech-haven-music-11.firebasestorage.app",
-  messagingSenderId: "55200796283",
-  appId: "1:55200796283:web:6ff1763fe2bf68f514dcde"
+  authDomain: "your-domain",
+  projectId: "your-id",
+  storageBucket: "your-storage",
+  messagingSenderId: "your-id",
+  appId: "your-appId"
 };
 
 // Initialize Firebase
