@@ -1,6 +1,6 @@
 # 🎵 Music Player
 
-Tech Haven Music Player is a modern, feature-rich web application designed to bring your music experience to life. Built with **React**, **Vite**, and **Firebase**, it offers seamless playback, album management, and user authentication — all wrapped in a clean, responsive interface.
+Tech Haven Music Player is a modern, feature-rich web application designed to bring your music experience to life. Built with **React**, and **Firebase**, it offers seamless playback, album management, and user authentication — all wrapped in a clean, responsive interface.
 
 ---
 
@@ -18,7 +18,10 @@ Tech Haven Music Player is a modern, feature-rich web application designed to br
 ## 🛠 Installation
    
 **Clone the repository:**
+
    git clone https://github.com/your-username/music-player.git
+
    
    npm install
+   
    npm run dev
