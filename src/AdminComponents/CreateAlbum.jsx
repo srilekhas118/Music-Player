@@ -122,7 +122,7 @@ const CreateAlbum = () => {
             AlbumPosterFormData.append("upload_preset" ,"tech_haven_music_11");
             AlbumPosterFormData.append("cloud_name","dvmqzmtec")
 
-            let cloudinaryResponse = fetch("https://api.cloudinary.com/v1_1/dvmqzmtec/image/upload",{
+            let cloudinaryResponse = fetch("https://api.cloudinary.com/v1_1/your-id/image/upload",{
                 method:"POST",
                 body:AlbumPosterFormData
             })
@@ -143,7 +143,7 @@ const CreateAlbum = () => {
                 songThumbnailFormData.append("upload_preset" ,"tech_haven_music_11");
                 songThumbnailFormData.append("cloud_name","dvmqzmtec");
 
-                let cloudinaryResponseOfSongThumbnailData = fetch("https://api.cloudinary.com/v1_1/dvmqzmtec/upload",{
+                let cloudinaryResponseOfSongThumbnailData = fetch("https://api.cloudinary.com/v1_1/your-id/upload",{
                     method:"POST",
                     body:songThumbnailFormData
                 })
@@ -161,7 +161,7 @@ const CreateAlbum = () => {
                 songURLFormData.append("upload_preset" ,"tech_haven_music_11");
                 songURLFormData.append("cloud_name","dvmqzmtec");
 
-                let cloudinaryResponseOfSongURLData = fetch("https://api.cloudinary.com/v1_1/dvmqzmtec/upload",{
+                let cloudinaryResponseOfSongURLData = fetch("https://api.cloudinary.com/v1_1/your-id/upload",{
                     method:"POST",
                     body:songURLFormData
                 })
