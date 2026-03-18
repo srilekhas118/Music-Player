@@ -4,7 +4,7 @@ import Spinner from '../utilities/Spinner'
 import { addDoc, collection } from 'firebase/firestore'
 import { __DB } from '../backend/firebase'
 
-const CreateAlbum = () => {
+const CreateAlbum = () => { 
     
     let initialAlbumState = {
         albumTitle:"",
