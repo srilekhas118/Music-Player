@@ -119,8 +119,8 @@ const CreateAlbum = () => {
 
             let AlbumPosterFormData = new FormData();
             AlbumPosterFormData.append("file" , albumThumbnailPoster)
-            AlbumPosterFormData.append("upload_preset" ,"tech_haven_music_11");
-            AlbumPosterFormData.append("cloud_name","dvmqzmtec")
+            AlbumPosterFormData.append("upload_preset" ,"your-project");
+            AlbumPosterFormData.append("cloud_name","your-id")
 
             let cloudinaryResponse = fetch("https://api.cloudinary.com/v1_1/your-id/image/upload",{
                 method:"POST",
@@ -140,8 +140,8 @@ const CreateAlbum = () => {
                 let songThumbnailFormData = new FormData();
 
                 songThumbnailFormData.append("file" , song?.songThumbnail)
-                songThumbnailFormData.append("upload_preset" ,"tech_haven_music_11");
-                songThumbnailFormData.append("cloud_name","dvmqzmtec");
+                songThumbnailFormData.append("upload_preset" ,"your-project");
+                songThumbnailFormData.append("cloud_name","your-id");
 
                 let cloudinaryResponseOfSongThumbnailData = fetch("https://api.cloudinary.com/v1_1/your-id/upload",{
                     method:"POST",
@@ -158,8 +158,8 @@ const CreateAlbum = () => {
                 let songURLFormData = new FormData();
 
                 songURLFormData.append("file" , song?.songUrl)
-                songURLFormData.append("upload_preset" ,"tech_haven_music_11");
-                songURLFormData.append("cloud_name","dvmqzmtec");
+                songURLFormData.append("upload_preset" ,"your-project");
+                songURLFormData.append("cloud_name","your-id");
 
                 let cloudinaryResponseOfSongURLData = fetch("https://api.cloudinary.com/v1_1/your-id/upload",{
                     method:"POST",
